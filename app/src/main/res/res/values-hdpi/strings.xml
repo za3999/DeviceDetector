@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="detect_result">hdpi</string>
+    <string name="density_dpi">hdpi</string>
+
+</resources>

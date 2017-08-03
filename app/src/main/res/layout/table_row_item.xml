@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp" >
+
+    <TextView
+        android:id="@+id/tv_row_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="设备类型"
+        android:textColor="#F0F0F0"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/vw_division"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#B7B7B7" />
+
+    <com.test.ScrollTextView
+        android:id="@+id/tv_row_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="设备类型值"
+        android:textColor="#F0F0F0"
+        android:textSize="14sp" />
+
+</TableRow>
